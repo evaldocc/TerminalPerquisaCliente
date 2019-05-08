@@ -71,12 +71,12 @@ public class PerguntaAbertaActivity extends AppCompatActivity {
 
     public void clickComentarioPular(View view) {
 
-        enviarQuestionario(pergunta, "(Não deixou comentario)");
+        enviarQuestionario(pularTela + "." + pergunta, "(Não deixou comentario)");
         chamarProximaTela();
     }
     public void clickBotaoEnviarComentario(View view) {
         respostaAberta = "(" + respostaAberta + "" + ACTVRespostaAberta.getText() + ")";
-        enviarQuestionario(pergunta, respostaAberta);
+        enviarQuestionario(pularTela + "." + pergunta, respostaAberta);
         chamarProximaTela();
     }
 

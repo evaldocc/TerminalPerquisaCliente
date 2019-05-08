@@ -99,31 +99,31 @@ public class PerguntaEmotion6Activity extends AppCompatActivity {
 
         System.out.println("clickouExcelente");
 
-        enviarQuestionario(pergunta, "(Exelente)");
+        enviarQuestionario(pularTela + "." + pergunta, "(Exelente)");
 
         chamarProximaTela();
     }
 
     public void clickBom6Emotion(View view) {
-        enviarQuestionario(pergunta, "(Bom)");
+        enviarQuestionario(pularTela + "." + pergunta, "(Bom)");
 
         chamarProximaTela();
     }
 
     public void clickRazoavel6Emotion(View view) {
-        enviarQuestionario(pergunta, "(Razoável)");
+        enviarQuestionario(pularTela + "." + pergunta, "(Razoável)");
 
         chamarProximaTela();
     }
 
     public void clickRuim6Emotion(View view) {
-        enviarQuestionario(pergunta, "(Ruim)");
+        enviarQuestionario(pularTela + "." + pergunta, "(Ruim)");
 
         chamarProximaTela();
     }
 
     public void clickPessimo6Emotion(View view) {
-        enviarQuestionario(pergunta, "(Péssimo)");
+        enviarQuestionario(pularTela + "." + pergunta, "(Péssimo)");
 
         chamarProximaTela();
     }

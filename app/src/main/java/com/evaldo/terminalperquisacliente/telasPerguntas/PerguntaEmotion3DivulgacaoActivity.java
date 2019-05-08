@@ -139,7 +139,7 @@ public class PerguntaEmotion3DivulgacaoActivity extends AppCompatActivity {
         onPause();
         gerarIDRespostasQuestionario();
 
-        enviarPrimeiraRespostaQuestionario(pergunta, "(Razoável)");
+        enviarPrimeiraRespostaQuestionario(pularTela + "." + pergunta, "(Razoável)");
 
         chamarProximaTela();
     }
@@ -147,7 +147,7 @@ public class PerguntaEmotion3DivulgacaoActivity extends AppCompatActivity {
 
         gerarIDRespostasQuestionario();
 
-        enviarPrimeiraRespostaQuestionario(pergunta, "(Ruim)");
+        enviarPrimeiraRespostaQuestionario(pularTela + "." + pergunta, "(Ruim)");
 
         chamarProximaTela();
     }

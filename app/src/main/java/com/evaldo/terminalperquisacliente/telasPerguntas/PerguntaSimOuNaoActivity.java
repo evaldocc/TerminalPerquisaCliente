@@ -73,13 +73,13 @@ public class PerguntaSimOuNaoActivity extends AppCompatActivity {
     }
 
     public void clickRespostaSim(View view) {
-        enviarQuestionario(pergunta, "(Sim)");
+        enviarQuestionario(pularTela + "." + pergunta, "(Sim)");
         chamarProximaTela();
 
     }
 
     public void clickRespostaNao(View view) {
-        enviarQuestionario(pergunta, "(Não)");
+        enviarQuestionario(pularTela + "." + pergunta, "(Não)");
         chamarProximaTela();
     }
 

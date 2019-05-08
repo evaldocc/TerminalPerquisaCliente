@@ -80,12 +80,12 @@ public class PerguntaTelefoneOuEmailActivity extends AppCompatActivity {
     public void clickEnviarTelefoneOuEmail(View view) {
 
         verificarContato();
-        enviarQuestionario(pergunta, "(" + telefoneEmail + ")");
+        enviarQuestionario(pularTela + "." + pergunta, "(" + telefoneEmail + ")");
         chamarProximaTela();
     }
 
     public void clickNaoEnviarTelefoneOuEmail(View view) {
-        enviarQuestionario(pergunta, "(Não se identificou)");
+        enviarQuestionario(pularTela + "." + pergunta, "(Não se identificou)");
         chamarProximaTela();
     }
 
